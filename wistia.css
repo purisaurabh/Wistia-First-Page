@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(21, 34, 214);
+}
+
+.container_{
+  width: 650px;
+  height: 500px;
+}
+
+.text {
+  margin-top: 200px;
+  margin-left: 150px;
+  color: white;
+  line-height: 1;
+  word-spacing: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 29px;
+}
+
+.small_text {
+  margin-top: 20px;
+  margin-left: 160px;
+  color: white;
+  word-spacing: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+span {
+  color: orange;
+}
+
+.btn {
+  margin-top: 30px;
+  margin-left: 120px;
+}
+
+button {
+  margin-left: 50px;
+}
+
+.buttonClass {
+  font-size: 15px;
+  font-family: Arial;
+  width: 175px;
+  height: 50px;
+  border-width: 1px;
+  color: #ffffff;
+  border-color: #ee1eb5;
+  font-weight: bold;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: inset 0px 1px 0px 0px #fbafe3;
+  text-shadow: inset 0px 1px 0px #c70067;
+  background: linear-gradient(#ff5bb0, #ef027d);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#ef027d, #ff5bb0);
+}
+
+.buttonClass2 {
+  font-size: 15px;
+  font-family: Arial;
+  width: 161px;
+  height: 50px;
+  border-width: 1px;
+  color: #777777;
+  border-color: #dcdcdc;
+  font-weight: bold;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  text-shadow: inset 0px 1px 0px #ffffff;
+  background: linear-gradient(#ededed, #dfdfdf);
+}
+
+.buttonClass2:hover {
+  background: linear-gradient(#dfdfdf, #ededed);
+}
+
+.img 
+{
+  margin-left: 700px;
+  margin-top: -418px;
+}
+img
+{
+  width: 730px;
+  height: 500px;
+}
+
+footer 
+{  
+    background: #ccdf22;  
+    border-top: 1px solid #e4e4e4;  
+    max-height: 55px;  
+    width: 100%;  
+    padding: 15px 20px 5px 10px;  
+    margin-bottom: 0;  
+    /* clear: both;   */
+    position:absolute;  
+    bottom:0;  
+} 
+
+.btn1
+{
+  display: inline-block;  
+  padding: 0 10px;  
+  margin-bottom: 0;
+}
+
+
+.buttonClass3
+{
+  background-color: black;
+  color: white;
+  height: 30px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  margin-left: 300px;
+}   
+
+.buttonClass3:hover
+{
+  color: #777777;
+}
+.para
+{
+  word-spacing: 10px;
+  font-size: 20px;
+
+}
+
+.sp
+{
+  text-decoration: underline;
+  color: black;
+}
+
+.sp:hover
+{
+  color:#dcdcdc;
+}
